@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.7.6 on win32)" generated="20200806 16:19:04.338" rpa="false">
+<suite id="s1" name="Result" source="E:\sxf\result.robot">
+<test id="s1-t1" name="京东购买一台电脑">
+<kw name="搜索商品">
+<arguments>
+<arg>${search url}</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>搜索笔记本,地址：${search url}</arg>
+</arguments>
+<msg timestamp="20200806 16:19:04.370" level="INFO">搜索笔记本,地址：https://search.jd.com/Search?keyword=%E7%AC%94%E8%AE%B0%E6%9C%AC&amp;enc=utf-8&amp;wq=biji&amp;pvid=cbb7424acccb43129aa6f14c945d02e9</msg>
+<status status="PASS" starttime="20200806 16:19:04.370" endtime="20200806 16:19:04.370"></status>
+</kw>
+<status status="PASS" starttime="20200806 16:19:04.370" endtime="20200806 16:19:04.370"></status>
+</kw>
+<kw name="商品详情">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>点击产品</arg>
+</arguments>
+<msg timestamp="20200806 16:19:04.370" level="INFO">点击产品</msg>
+<status status="PASS" starttime="20200806 16:19:04.370" endtime="20200806 16:19:04.370"></status>
+</kw>
+<status status="PASS" starttime="20200806 16:19:04.370" endtime="20200806 16:19:04.370"></status>
+</kw>
+<kw name="商品数量">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>选择商品数量</arg>
+</arguments>
+<msg timestamp="20200806 16:19:04.370" level="INFO">选择商品数量</msg>
+<status status="PASS" starttime="20200806 16:19:04.370" endtime="20200806 16:19:04.370"></status>
+</kw>
+<status status="PASS" starttime="20200806 16:19:04.370" endtime="20200806 16:19:04.370"></status>
+</kw>
+<kw name="选择属性">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>选择具体产品，选择的产品型号为：13.3英寸超轻薄笔记本电脑</arg>
+</arguments>
+<msg timestamp="20200806 16:19:04.370" level="INFO">选择具体产品，选择的产品型号为：13.3英寸超轻薄笔记本电脑</msg>
+<status status="PASS" starttime="20200806 16:19:04.370" endtime="20200806 16:19:04.370"></status>
+</kw>
+<status status="PASS" starttime="20200806 16:19:04.370" endtime="20200806 16:19:04.370"></status>
+</kw>
+<kw name="加入购物车">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>点击加入购物车</arg>
+</arguments>
+<msg timestamp="20200806 16:19:04.370" level="INFO">点击加入购物车</msg>
+<status status="PASS" starttime="20200806 16:19:04.370" endtime="20200806 16:19:04.370"></status>
+</kw>
+<status status="PASS" starttime="20200806 16:19:04.370" endtime="20200806 16:19:04.370"></status>
+</kw>
+<kw name="结算">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>点击结算</arg>
+</arguments>
+<msg timestamp="20200806 16:19:04.370" level="INFO">点击结算</msg>
+<status status="PASS" starttime="20200806 16:19:04.370" endtime="20200806 16:19:04.370"></status>
+</kw>
+<status status="PASS" starttime="20200806 16:19:04.370" endtime="20200806 16:19:04.370"></status>
+</kw>
+<kw name="提交订单">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>提交订单成功,账号：${jd-accounts}，联系电话：9876543210，地址：南山区智园a1</arg>
+</arguments>
+<msg timestamp="20200806 16:19:04.370" level="INFO">提交订单成功,账号：tan，联系电话：9876543210，地址：南山区智园a1</msg>
+<status status="PASS" starttime="20200806 16:19:04.370" endtime="20200806 16:19:04.370"></status>
+</kw>
+<timeout value="16 minutes 40 seconds"></timeout>
+<status status="PASS" starttime="20200806 16:19:04.370" endtime="20200806 16:19:04.370"></status>
+</kw>
+<kw name="登录">
+<arguments>
+<arg>${jd-accounts}</arg>
+<arg>${password}</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>账号：${jd-accounts}，登录成功</arg>
+</arguments>
+<msg timestamp="20200806 16:19:04.370" level="INFO">账号：tan，登录成功</msg>
+<status status="PASS" starttime="20200806 16:19:04.370" endtime="20200806 16:19:04.370"></status>
+</kw>
+<timeout value="16 minutes 40 seconds"></timeout>
+<status status="PASS" starttime="20200806 16:19:04.370" endtime="20200806 16:19:04.370"></status>
+</kw>
+<kw name="支付">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>支付</arg>
+</arguments>
+<msg timestamp="20200806 16:19:04.370" level="INFO">支付</msg>
+<status status="PASS" starttime="20200806 16:19:04.370" endtime="20200806 16:19:04.370"></status>
+</kw>
+<status status="PASS" starttime="20200806 16:19:04.370" endtime="20200806 16:19:04.370"></status>
+</kw>
+<status status="PASS" starttime="20200806 16:19:04.354" endtime="20200806 16:19:04.370" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200806 16:19:04.338" endtime="20200806 16:19:04.370"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Result">Result</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

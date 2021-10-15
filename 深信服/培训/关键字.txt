@@ -1,0 +1,8 @@
+搜索商品		search search url
+商品详情		product details
+商品数量		product number
+选择属性   		Select attribute
+加入购物车  	add to Shopping Cart
+结算		settle accounts
+提交订单   		Submit orders
+支付  		payment
