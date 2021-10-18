@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ppt">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/深信服/考试/ppt.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
