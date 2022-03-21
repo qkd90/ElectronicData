@@ -165,18 +165,18 @@ body {
 
 #write>h1:first-child,
 h1 {
-	padding-top: 0.25em;
-	padding-bottom: 0.25em;
+	padding-top: 0.27em;
+	padding-bottom: 0.27em;
 	font-weight: normal;
-	font-size:1.5em;
+	font-size:1.6em;
   text-align: center;
   color:#e500e3;
 }
 
 h2 {
-	padding-top: 0.25em;
-	padding-bottom: 0.25em;
-	font-size:1.5em;
+	padding-top: 0.27em;
+	padding-bottom: 0.27em;
+	font-size:1.6em;
 	font-weight: normal;
   text-align: left;
   color:#f5762c;
@@ -186,9 +186,9 @@ h3 {
 	padding-top: 0.25em;
 	padding-bottom: 0.25em;
 	font-weight: normal;
-	font-size:1.5em;
+	font-size:1.6em;
   text-align: left;
-  color:#e5fd08;
+  color:#e4fd08d5;
 }
 
 h4 { 
@@ -214,7 +214,6 @@ h6 {
   text-align: left;
   color:#e9143b;
 }
-
 
 /* horizontal divider */
 hr {
